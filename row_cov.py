@@ -16,7 +16,7 @@ class tickers:
         does not integrate the covid data"""
         
         import pandas as pd
-        df = pd.read_csv('    ')
+        df = pd.read_csv('tkr_data.csv')
         #print(list(df))
         #['high', 'low', 'open', 'close', 'volume', 'adjustedclose', 'ticker', 'DateStamp', 
         # 'Industry', 'Sector', 'Country', 'Commodity']
